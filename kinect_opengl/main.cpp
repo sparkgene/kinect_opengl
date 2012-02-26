@@ -42,10 +42,10 @@ using namespace xn;
 // Defines
 //---------------------------------------------------------------------------
 #define CONFIG_XML_PATH "./config.xml"
-//#define RECORD_FILE_PATH "../../skeletonrec.oni"
-#define RECORD_FILE_PATH "../../debug_video.oni"
+#define RECORD_FILE_PATH "../../skeletonrec.oni"
+//#define RECORD_FILE_PATH "../../debug_video.oni"
 #define MAX_NUM_USERS 3
-#define USE_RECORED_DATA TRUE
+#define USE_RECORED_DATA FALSE
 #define DO_RECORED FALSE
 
 #define MAX_DEPTH 10000
