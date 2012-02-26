@@ -1,0 +1,20 @@
+動作環境 (environment)
+OpenNI 1.5.2.23
+Nite 1.5.2.21
+PrimeSense Sensor 5.1.0.41
+
+OpenGLを使ってカメラの映像＆スケルトンの情報を表示するサンプル
+
+main.cppの以下のフラグを設定して、センサー情報の保存、再生を指定できます。
+ USE_RECORED_DATA
+  TRUE: 指定された.oniファイルを読み込んで再生します
+ DO_RECORED
+  TRUE: Kinectセンサーからの入力を保存します
+ RECORD_FILE_PATH
+  ".oni"ファイルまでのパス
+
+OpenNIのサイトからサンプルのoniファイルをダウンロードして指定すれば、
+Kinectセンサーがなくても、サンプルを動かすことができます。
+以下のURLを開き、ドロップダウンで「ONI files」＞「SkeltonRec.oni」を選んでダウンロードして下さい。
+http://www.openni.org/Downloads/OpenNIModules.aspx
+

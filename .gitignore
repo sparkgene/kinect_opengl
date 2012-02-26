@@ -1,0 +1,7 @@
+build/
+*.o
+*.oni
+kinect_opengl.xcodeproj/xcuserdata/
+kinect_opengl.xcodeproj/project.xcworkspace/xcuserdata/
+.DS_Store
+

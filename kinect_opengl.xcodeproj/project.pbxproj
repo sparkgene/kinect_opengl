@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		148F37FA14F8CFD50039088C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 148F37F914F8CFD50039088C /* main.cpp */; };
+		148F37FC14F8CFD50039088C /* kinect_opengl.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 148F37FB14F8CFD50039088C /* kinect_opengl.1 */; };
+		148F382214F8D2A90039088C /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148F382014F8D2A90039088C /* GLUT.framework */; };
+		148F382314F8D2A90039088C /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 148F382114F8D2A90039088C /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		148F37F314F8CFD50039088C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				148F37FC14F8CFD50039088C /* kinect_opengl.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		148F37F514F8CFD50039088C /* kinect_opengl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = kinect_opengl; sourceTree = BUILT_PRODUCTS_DIR; };
+		148F37F914F8CFD50039088C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		148F37FB14F8CFD50039088C /* kinect_opengl.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = kinect_opengl.1; sourceTree = "<group>"; };
+		148F380314F8D0140039088C /* gl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gl.h; sourceTree = "<group>"; };
+		148F380414F8D0140039088C /* glext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glext.h; sourceTree = "<group>"; };
+		148F380514F8D0140039088C /* glut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glut.h; sourceTree = "<group>"; };
+		148F380614F8D0140039088C /* wglext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wglext.h; sourceTree = "<group>"; };
+		148F380814F8D0140039088C /* glh_array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glh_array.h; sourceTree = "<group>"; };
+		148F380914F8D0140039088C /* glh_convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glh_convenience.h; sourceTree = "<group>"; };
+		148F380A14F8D0140039088C /* glh_cube_map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glh_cube_map.h; sourceTree = "<group>"; };
+		148F380B14F8D0140039088C /* glh_extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glh_extensions.h; sourceTree = "<group>"; };
+		148F380C14F8D0140039088C /* glh_genext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glh_genext.h; sourceTree = "<group>"; };
+		148F380D14F8D0140039088C /* glh_glut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glh_glut.h; sourceTree = "<group>"; };
+		148F380E14F8D0140039088C /* glh_glut2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glh_glut2.h; sourceTree = "<group>"; };
+		148F380F14F8D0140039088C /* glh_glut_callfunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glh_glut_callfunc.h; sourceTree = "<group>"; };
+		148F381014F8D0140039088C /* glh_glut_replay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glh_glut_replay.h; sourceTree = "<group>"; };
+		148F381114F8D0140039088C /* glh_glut_text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glh_glut_text.h; sourceTree = "<group>"; };
+		148F381214F8D0140039088C /* glh_interactors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glh_interactors.h; sourceTree = "<group>"; };
+		148F381314F8D0140039088C /* glh_linear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glh_linear.h; sourceTree = "<group>"; };
+		148F381414F8D0140039088C /* glh_mipmaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glh_mipmaps.h; sourceTree = "<group>"; };
+		148F381514F8D0140039088C /* glh_obs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glh_obs.h; sourceTree = "<group>"; };
+		148F381614F8D0140039088C /* glh_text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glh_text.h; sourceTree = "<group>"; };
+		148F381714F8D0420039088C /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		148F382014F8D2A90039088C /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		148F382114F8D2A90039088C /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		148F37F214F8CFD50039088C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148F382214F8D2A90039088C /* GLUT.framework in Frameworks */,
+				148F382314F8D2A90039088C /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		148F37EA14F8CFD50039088C = {
+			isa = PBXGroup;
+			children = (
+				148F382014F8D2A90039088C /* GLUT.framework */,
+				148F382114F8D2A90039088C /* OpenGL.framework */,
+				148F37F814F8CFD50039088C /* kinect_opengl */,
+				148F37F614F8CFD50039088C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		148F37F614F8CFD50039088C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				148F37F514F8CFD50039088C /* kinect_opengl */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		148F37F814F8CFD50039088C /* kinect_opengl */ = {
+			isa = PBXGroup;
+			children = (
+				148F381714F8D0420039088C /* config.xml */,
+				148F380214F8D0140039088C /* GL */,
+				148F380714F8D0140039088C /* glh */,
+				148F37F914F8CFD50039088C /* main.cpp */,
+				148F37FB14F8CFD50039088C /* kinect_opengl.1 */,
+			);
+			path = kinect_opengl;
+			sourceTree = "<group>";
+		};
+		148F380214F8D0140039088C /* GL */ = {
+			isa = PBXGroup;
+			children = (
+				148F380314F8D0140039088C /* gl.h */,
+				148F380414F8D0140039088C /* glext.h */,
+				148F380514F8D0140039088C /* glut.h */,
+				148F380614F8D0140039088C /* wglext.h */,
+			);
+			path = GL;
+			sourceTree = "<group>";
+		};
+		148F380714F8D0140039088C /* glh */ = {
+			isa = PBXGroup;
+			children = (
+				148F380814F8D0140039088C /* glh_array.h */,
+				148F380914F8D0140039088C /* glh_convenience.h */,
+				148F380A14F8D0140039088C /* glh_cube_map.h */,
+				148F380B14F8D0140039088C /* glh_extensions.h */,
+				148F380C14F8D0140039088C /* glh_genext.h */,
+				148F380D14F8D0140039088C /* glh_glut.h */,
+				148F380E14F8D0140039088C /* glh_glut2.h */,
+				148F380F14F8D0140039088C /* glh_glut_callfunc.h */,
+				148F381014F8D0140039088C /* glh_glut_replay.h */,
+				148F381114F8D0140039088C /* glh_glut_text.h */,
+				148F381214F8D0140039088C /* glh_interactors.h */,
+				148F381314F8D0140039088C /* glh_linear.h */,
+				148F381414F8D0140039088C /* glh_mipmaps.h */,
+				148F381514F8D0140039088C /* glh_obs.h */,
+				148F381614F8D0140039088C /* glh_text.h */,
+			);
+			path = glh;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		148F37F414F8CFD50039088C /* kinect_opengl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 148F37FF14F8CFD50039088C /* Build configuration list for PBXNativeTarget "kinect_opengl" */;
+			buildPhases = (
+				148F37F114F8CFD50039088C /* Sources */,
+				148F37F214F8CFD50039088C /* Frameworks */,
+				148F37F314F8CFD50039088C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kinect_opengl;
+			productName = kinect_opengl;
+			productReference = 148F37F514F8CFD50039088C /* kinect_opengl */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		148F37EC14F8CFD50039088C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 148F37EF14F8CFD50039088C /* Build configuration list for PBXProject "kinect_opengl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 148F37EA14F8CFD50039088C;
+			productRefGroup = 148F37F614F8CFD50039088C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				148F37F414F8CFD50039088C /* kinect_opengl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		148F37F114F8CFD50039088C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148F37FA14F8CFD50039088C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		148F37FD14F8CFD50039088C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		148F37FE14F8CFD50039088C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		148F380014F8CFD50039088C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/usr/include/ni/,
+					/usr/include/nite/,
+				);
+				OTHER_LDFLAGS = (
+					/usr/lib/libOpenNI.dylib,
+					/usr/lib/libXnVNite_1_5_2.dylib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		148F380114F8CFD50039088C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/usr/include/ni/,
+					/usr/include/nite/,
+				);
+				OTHER_LDFLAGS = (
+					/usr/lib/libOpenNI.dylib,
+					/usr/lib/libXnVNite_1_5_2.dylib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		148F37EF14F8CFD50039088C /* Build configuration list for PBXProject "kinect_opengl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148F37FD14F8CFD50039088C /* Debug */,
+				148F37FE14F8CFD50039088C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		148F37FF14F8CFD50039088C /* Build configuration list for PBXNativeTarget "kinect_opengl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148F380014F8CFD50039088C /* Debug */,
+				148F380114F8CFD50039088C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 148F37EC14F8CFD50039088C /* Project object */;
+}
